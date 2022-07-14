@@ -1,7 +1,0 @@
-#root,
-.root {
-    padding: 20px;
-    padding-top: 73px;
-    background-color: var(--ui-color-background);
-    min-height: 100vh;
-}
