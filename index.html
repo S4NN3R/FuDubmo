@@ -1,191 +1,153 @@
 <!DOCTYPE html>
-<html lang="ru" class="" ><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html>
+<head>
+   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet" />
+   <meta charset="UTF-8">
+	<link rel = "stylesheet" type = "text/css" href = "css/main.css">
+   
 
-    <link rel="preload stylesheet" as="style" type="text/css" href="css/test1.css">
-    <link rel="preload stylesheet" as="style" type="text/css" href="css/test2.css">
+   
+   <link rel="stylesheet" href="css/swiper.css" />
+   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+
+
 
 </head>
-<body>
-<nav class="navbar navbar-header navbar-expand-lg navbar-dark transparent" id="navbar">
-    <div class="container-fluid position-relative">
+<body style="margin: 0px;">
+<!--header-->  
+ <header> 
+  <div class="header header-tm">
+   <!--logo-->
+   <a href="" class="logo">
+      <span class="logo_text1">FUM</span>
+      <span class="logo_img"></span>
+      <span class="logo_text2">DUB</span>
+   </a>
+   <!--logo end-->
 
-        <a class="navbar-brand" href="https://s4nn3r.github.io/FuDubmo/" style="margin-top: -10px;" title="Кто я?">
-            <span style="position: relative;">
-                FumoDub<span style="font-weight: 100;color:#fff;;">.ru</span>
-                <small style="font-size: 8pt;color:#fff;;position: absolute;left: 0;bottom: -12px;font-weight: 100;">Beta version</small>
-            </span>
-        </a>
-		
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <ul class="navbar-nav mr-auto">
-                <li class="ml-2 nav-item">
-                    <a class="nav-link" target="_blank" style="background: rgba(255,255,255,0.1);" href="https://vk.com/fumodub?w=app6887721_-205217516">
-                    <span style="margin-right: 5px;">❤</span>
-                        Помоги нам выжить
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-<div id="root" onmouseover="$(&#39;.donate&#39;).removeClass(&#39;active&#39;);">
-<style>
-.main-slide{
-    max-height: 100vh;
-    overflow: hidden;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: -1;
-    filter: blur(5px);
-    -webkit-filter: blur(5px);
-    -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Blur=50)';
-}
+   <!--nav-->
+   <nav>
+      <ul class="nav">
+         <li><a class="nav-link" href="" style="font-weight: bold;">Для тебя</a></li>
+         <li><a class="nav-link" href="">Аниме</a></li>
+         <ul class="nav-drop">
+            <li><a href="">Все аниме</a></li>
+            <li><a href="">Хентай</a></li>
+            <li><a href="">Фильмы</a></li>
+            <li><a href="">OVA</a></li>
+            <li><a href="">ONA</a></li>
+         </ul>
+         <li><a class="nav-link" href="">Манга</a></li>
+         <ul class="nav-drop">
+            <li><a href="">Вся манга</a></li>
+            <li><a href="">Хентай манга</a></li>
+         </ul>
+      </ul>
+   </nav>
+   <!--nav end-->
 
-.main-slide .swiper-slide img{
-    width: 100vw;
-}
+   <!--Кнопочки :D-->
+   <div class="right-header">
 
-.main-slide .swiper-slide::before {
-    content: '';
-    display: block;
-    background: rgb(12,16,27);
-    background: -moz-linear-gradient(180deg, rgba(12,16,27,0.82) 0%, rgba(12,16,27,1) 100%);
-    background: -webkit-linear-gradient(180deg, rgba(12,16,27,0.82) 0%, rgba(12,16,27,1) 100%);
-    background-image: linear-gradient(180deg, #0c101bd1 0%, var(--color-bg) 95%) !important;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0c101b",endColorstr="#0c101b",GradientType=1);
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-}
-   
-</style>
-<div class="main-slide swiper swiper-fade swiper-initialized swiper-horizontal swiper-pointer-events swiper-watch-progress swiper-backface-hidden" id="mas">
-    <div class="swiper-wrapper" style="transition-duration: 5000ms; transition-timing-function: ease !important; transition-delay: 0s !important; transition-property: all !important;" id="swiper-wrapper-2537f4fc6f39ed16" aria-live="off"><div class="swiper-slide active swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="2" role="group" aria-label="3 / 3" style="width: 1915px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 5000ms;">
-            <div class="container" style="pointer-events: none;">
-                <div class="swiper-description" style="pointer-events: all;">
-                </div>
+   <!--search-->
+   <input type="text" class="search right-header1" placeholder="Песнь ночных сов">
+   <span class="searchico"></span>
+   <!--search end-->
+
+   <!--login-->
+   <button class="btn2 right-header1">
+      <a class="btn-text2">Войти</a></button>
+   </button>
+   <!--login end-->
+
+   <!--don don don-->
+   <button class="btn1 right-header1">
+      <span class="heart1"></span>
+      <a class="btn-text1" href="">Поддержать проект</a></button>
+   <!--don don don end-->
+
+   </div>
+   <!--Конец нопочек :D-->
+   </div>
+ </header>
+<!--header end-->
+
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+         <div class="swiper-slide tm">
+            <div class="swiper-all">
+               <div class="swiper-iner">
+               <div><img width="100%" src="img/test.svg"></div>   
+               <div class="ots bel">4 из 13 эп. 16+</div>
+               <div class="bel">LidenFilms</div>
+               <div></div>
+               <div class="swiper-genre ots"><a>Сёнен</a><a>Романтика</a><a>Сверхъестественное</a></div>  
+               <div class="swiper-text ots">Кто совершал ночные прогулки, наверняка, скажет, что они прекрасны. Отсутствие людей, машин и прочих раздражителей, шарм тёмного времени суток и непередаваемое чувство свободы...</div> 
+               <div class="swiper-screens ots"><img src="images/v2_98.png"><img src="images/v2_97.png"><img src="images/v2_94.png"></div>      
             </div>
-            <img src="posters/abyss.jpg" alt="Постер для фона сайта">
-        </div>
+            </div>
+               <img width="100%" src="images/v2_46.png">
+         </div>
+        <!--<div class="swiper-slide tm"> <img width="100%" src="images/v2_98.png"></div>
+        <div class="swiper-slide tm"> <img width="100%" src="images/v2_97.png"></div> -->
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
     </div>
-<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
-<section id="content" style="padding-bottom: 0;" itemscope="">
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 0,
+        loop: true,
+        autoplay: {
+          delay: 12000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    <!--swiper end-->
+
+
+
+
+
+
+
+
+
 
 
     
-    <div class="container">
-        <div class="view" style="margin-bottom: 10px;">
-            <div class="row">
-                <div class="slicky-image col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-3">
-                    <div class="sticky-tops" style="top: 80px;">
-                    
-                        <div class="image" itemprop="image">
-                                  <img src="posters/abyss.jpg" class="poster-img" width="100%">
-                            <img src="posters/abyss.jpg" class="poster-img" style="filter: blur(100px);position: absolute;top: 0;z-index: -1;opacity: .5;" width="100%">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-9">
-                    
-                    <!-- page title -->
-                    <div class="title"> 
-
-                        <!-- release title -->    
-                        <h1 class="p-0 m-0" style="line-height: 35px;width: calc(100% - 50px);" itemprop="name">
-                            Созданный в Бездне: Солнце, вспыхнувшее в Золотом городе                        </h1>
-
-                        <!-- release original title -->  
-                        <a data-toggle="collapse" role="button" aria-expanded="false" aria-controls="information"> 
-                            <small style="margin-top: 10px;margin-bottom: 20px;line-height: 22px;width: calc(100% - 50px);" itemprop="alternativeHeadline">Made in Abyss: Retsujitsu no Ougonkyou</small>
-                        </a><br>
-
-                        <!-- release information -->  
-                        <div class="first-info"> 
-
-                            
-                                                                                    <!-- release age rating -->
-                            <span class="full-length" style="opacity: 1;">
-                                <a style="background-color: transparent;border-radius: .5rem;color: white !important;border: 1px solid white;padding: 0px 8px;opacity: .3;cursor: help;">
-                                    R-17                               </a>
-                            </span>
-                            
-                                                        <!-- release year release -->      
-                            <span>2022г.</span> 
-                            <span>TV Сериал</span>
-
-                        </div>
-
-                    </div>
-
-                    <!-- release information -->
-                    <div class="row">
-
-                    
-                        <!-- release genres -->
-                        <div class="col-12 col-md-3 mb-1">
-                            <strong>Жанры:</strong>
-                        </div>
-
-                        <div class="col-12 col-md-9 mb-1"> 
-                            Приключения, Драма, Фэнтези, Детектив, Фантастика  
-						</div>
-
-                        
-                        <div class="col-12" id="toggleEditInfo">
-
-                            <div class="row " itemprop="director">
-                                <!-- release director --> 
-                                <div class="col-6 col-md-3 mb-1">
-                                    <strong>Режиссер:</strong>
-                                </div>
-                                <div class="col-6 col-md-9 mb-1">
-                                                                                                                    <a>Масаюки Кодзима</a>
-                                                                                                            </div>
-                            </div>
-
-                            <div class="row" itemprop="studio">
-                                <!-- release studio --> 
-                                <div class="col-6 col-md-3 mb-1">
-                                    <strong>Студия:</strong>
-                                </div>
-                                <div class="col-6 col-md-9 mb-1">
-                                                                        <a>Kinema Citrus</a>
-                                                                    </div> 
-                            </div>
-                        </div>
-
-                        
-                        
-                    </div>
-
-                
-                                <!-- release description --> 
-                <div class="mt-3" style="text-align: justify;" itemprop="description">
-                    <div>
-                        <strong>Описание:</strong>
-                    </div>
-                    
-                                        <span itemprop="description">Directly after the events of Made in Abyss Movie 3: Dawn of the Deep Soul, the fifth installment of Made in Abyss covers the adventure of Reg, Riko, and Nanachi in the Sixth Layer, The Capital of the Unreturned.</span> 
-                                    </div>
-             
-                <hr>
-                <h5 name="player" id="player">
-                    Смотреть аниме онлайн
-                </h5>
-                <!-- online player -->     
-                <div class="player ">
-            <iframe src="//aniqit.com/serial/44052/d1437b01402a23070a17d53b2ffa3309/720p?translations=false&only_season=true" width="100%" frameborder="0" allowfullscreen="true" id="player-iframe">
-        </iframe>
-        </div>                                                             
-
-            </div>
-        </div>
-    </div>
-</div></section>
-
+</body>
+<footer>
+   <div class="dno">
+   <!--logo-->
+   <a href="" class="logo">
+      <span class="logo_text1">FUM</span>
+      <span class="logo_img"></span>
+      <span class="logo_text2">DUB</span>
+   </a>
+   <!--logo end-->
+      <!--don don don-->
+      <button class="btn1 right-header1">
+         <span class="heart1"></span>
+         <a class="btn-text1" href="">Поддержать проект</a></button>
+      <!--don don don end-->
+   </div>
+</footer>
 </html>
