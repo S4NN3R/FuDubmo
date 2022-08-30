@@ -19,105 +19,129 @@
   <script src="assets/js/scripts.js"></script>
 
 </head>
+
 <body>
-<main>
+  <main>
     <section class="edit" style="display: none;">
-        <div class="edit-syze">
-            <div style="width: 100%;"><a class="back">⟵</a><div>
+      <div class="edit-syze">
+        <div style="width: 100%;"><a class="back">🠔</a>
+          <div>
             <div>Об аккаунте</div>
             <div class="edit-info">
-                <div><span>Никнейм</span></div>
-                <div><input placeholder="Ваш никнейм"></div>
+              <div><span>Никнейм</span></div>
+              <div>
+                <input placeholder="Ваш никнейм">
+              </div>
             </div>
             <div class="edit-info">
-                <div><span>E-mail</span></div>
-                <div><input placeholder="Ваш E-mail"></div>
+              <div><span>E-mail</span></div>
+              <div>
+                <input placeholder="Ваш E-mail">
+              </div>
             </div>
             <div class="edit-info">
-                <div><span>Аватар</span></div>
-                <div><input type="file"></div>
+              <div><span>Аватар</span></div>
+              <div>
+                <input type="file">
+              </div>
             </div>
             <div class="edit-info">
-                <div><span>О себе</span></div>
-                <div><input placeholder="Чилю по жизни"></div>
-            </div><hr>
+              <div><span>О себе</span></div>
+              <div>
+                <input placeholder="Чилю по жизни">
+              </div>
+            </div>
+            <hr>
             <div>Пароль</div>
             <div class="edit-info">
-                <div><span>Старый пароль</span></div>
-                <div><input placeholder="Старый пароль"></div>
+              <div><span>Старый пароль</span></div>
+              <div>
+                <input placeholder="Старый пароль">
+              </div>
             </div>
             <div class="edit-info">
-                <div><span>Новый пароль</span></div>
-                <div><input placeholder="Новый пароль"></div>
+              <div><span>Новый пароль</span></div>
+              <div>
+                <input placeholder="Новый пароль">
+              </div>
             </div>
             <div class="edit-info">
-                <div><span>Повторите новый пароль</span></div>
-                <div><input placeholder="Повторите новый пароль"></div>
-            </div><hr>
-            <div class="edit-info">
-                <div><button>Выйти</button></div>
+              <div><span>Повторите новый пароль</span></div>
+              <div>
+                <input placeholder="Повторите новый пароль">
+              </div>
             </div>
-        </div>
-        <section style="margin-bottom: 40px;"></section>
+            <hr>
+            <div class="edit-info">
+              <div>
+                <button>Выйти</button>
+              </div>
+            </div>
+          </div>
+          <section style="margin-bottom: 40px;"></section>
     </section>
     <section class="otstup"></section>
     <section class="profile">
-        <div class="profile-info">
-            <div class="profile-foto"><img src="https://sun9-70.userapi.com/impg/NB8jvPOmOvtvdcpvUzWbN3gg8x4YwXky-brUlQ/5uKlEIzddUY.jpg?size=600x600&quality=95&sign=162a531ec706c931ccf77af9111440f2&type=album"></div>
-            <div class="user-info">
-                <div class="profile-name">S4NN3R</div>
-                <div class="profile-description">FumoDub, проект для тех кто хочет увидеть серии своих любимых аниме быстрее</div>
-            </div>
+      <div class="profile-info">
+        <div class="profile-foto"><img src="https://sun9-70.userapi.com/impg/NB8jvPOmOvtvdcpvUzWbN3gg8x4YwXky-brUlQ/5uKlEIzddUY.jpg?size=600x600&quality=95&sign=162a531ec706c931ccf77af9111440f2&type=album"></div>
+        <div class="user-info">
+          <div class="profile-name">S4NN3R</div>
+          <div class="profile-description">FumoDub, проект для тех кто хочет увидеть серии своих любимых аниме быстрее</div>
         </div>
-        <div class="profile-info">
-            <div class="profile-foto"></div>
-            <div class="user-info">
-                <div class="profile-online">был(а) в сети 30 августа 2022 14:26</div>
-            </div>
+      </div>
+      <div class="profile-info">
+        <div class="profile-foto"></div>
+        <div class="user-info">
+          <div class="profile-online">был(а) в сети 30 августа 2022 14:26</div>
         </div>
-        <a class="profile-edit-btn"><div>Редактировать</div></a><hr>
+      </div>
+      <a class="profile-edit-btn">
+        <div>Редактировать</div>
+      </a>
+      <hr>
     </section>
     <section class="otstup2"></section>
     <script>
-        $(function() {
-          var height = $('footer').height();
-          $('.otstup2').height(height);
-        });
+      $(function() {
+        var height = $('footer').height();
+        $('.otstup2').height(height);
+      });
     </script>
     <script>
-        $('.profile-edit-btn').click(function(){
+      $('.profile-edit-btn').click(function() {
         $('.edit').toggle();
-        });
+      });
     </script>
-        <script>
-            $('.back').click(function(){
-            $('.edit').toggle();
-            });
-        </script>
-</main>
+    <script>
+      $('.back').click(function() {
+        $('.edit').toggle();
+      });
+    </script>
+  </main>
 </body>
 <footer>
-    <div class="buttons">
-        <a class="points-button" href="index.html">
-            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M32.7645 16.1686L21.0978 5.96022C20.4695 5.41039 19.5312 5.41039 18.9028 5.96022L7.23615 16.1686C6.87446 16.485 6.66699 16.9422 6.66699 17.4229V31.6666C6.66699 32.587 7.41318 33.3332 8.33366 33.3332H15.0003C15.9208 33.3332 16.667 32.587 16.667 31.6666V24.9999C16.667 24.0794 17.4132 23.3332 18.3337 23.3332H21.667C22.5875 23.3332 23.3337 24.0794 23.3337 24.9999V31.6666C23.3337 32.587 24.0799 33.3332 25.0003 33.3332H31.667C32.5875 33.3332 33.3337 32.587 33.3337 31.6666V17.4229C33.3337 16.9422 33.1262 16.485 32.7645 16.1686Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-            </svg>      
-            <small>Главная</small>
-        </a>
-        <a class="points-button" href="#"> 
-            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M20 34.625C28.0772 34.625 34.625 28.0772 34.625 20C34.625 11.9228 28.0772 5.375 20 5.375C11.9228 5.375 5.375 11.9228 5.375 20C5.375 28.0772 11.9228 34.625 20 34.625Z" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
-                <path d="M26.5 13.5L22.4375 22.4375L13.5 26.5L17.5625 17.5625L26.5 13.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-            </svg> 
-            <small>Поиск</small>
-        </a>
-        <a class="points-button" href="profile.html">
-            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M6.6665 35.0001C6.6665 30.3977 12.636 26.6667 19.9998 26.6667C27.3636 26.6667 33.3332 30.3977 33.3332 35.0001" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                <path d="M19.9998 21.6667C24.6022 21.6667 28.3332 17.9357 28.3332 13.3333C28.3332 8.73096 24.6022 5 19.9998 5C15.3975 5 11.6665 8.73096 11.6665 13.3333C11.6665 17.9357 15.3975 21.6667 19.9998 21.6667Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-            </svg>
-            <small>Профиль</small>
-        </a>
-    </div>
+  <div class="buttons">
+    <a class="points-button" href="index.html">
+      <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M32.7645 16.1686L21.0978 5.96022C20.4695 5.41039 19.5312 5.41039 18.9028 5.96022L7.23615 16.1686C6.87446 16.485 6.66699 16.9422 6.66699 17.4229V31.6666C6.66699 32.587 7.41318 33.3332 8.33366 33.3332H15.0003C15.9208 33.3332 16.667 32.587 16.667 31.6666V24.9999C16.667 24.0794 17.4132 23.3332 18.3337 23.3332H21.667C22.5875 23.3332 23.3337 24.0794 23.3337 24.9999V31.6666C23.3337 32.587 24.0799 33.3332 25.0003 33.3332H31.667C32.5875 33.3332 33.3337 32.587 33.3337 31.6666V17.4229C33.3337 16.9422 33.1262 16.485 32.7645 16.1686Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+      </svg>
+      <small>Главная</small>
+    </a>
+    <a class="points-button" href="#">
+      <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M20 34.625C28.0772 34.625 34.625 28.0772 34.625 20C34.625 11.9228 28.0772 5.375 20 5.375C11.9228 5.375 5.375 11.9228 5.375 20C5.375 28.0772 11.9228 34.625 20 34.625Z" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M26.5 13.5L22.4375 22.4375L13.5 26.5L17.5625 17.5625L26.5 13.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+      </svg>
+      <small>Поиск</small>
+    </a>
+    <a class="points-button" href="profile.html">
+      <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M6.6665 35.0001C6.6665 30.3977 12.636 26.6667 19.9998 26.6667C27.3636 26.6667 33.3332 30.3977 33.3332 35.0001" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M19.9998 21.6667C24.6022 21.6667 28.3332 17.9357 28.3332 13.3333C28.3332 8.73096 24.6022 5 19.9998 5C15.3975 5 11.6665 8.73096 11.6665 13.3333C11.6665 17.9357 15.3975 21.6667 19.9998 21.6667Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+      </svg>
+      <small>Профиль</small>
+    </a>
+  </div>
 </footer>
+
 </html>

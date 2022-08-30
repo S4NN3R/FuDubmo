@@ -18,174 +18,175 @@
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
 
 </head>
+
 <body>
-<main>
+  <main>
     <section>
-        <div>
-          <div class="selector">
+      <div>
+        <div class="selector">
           <div class="tab">
             <button class="tablinks" onclick="openCity(event, 'ongoing')" id="defaultOpen">Онгоинги</button>
             <button class="tablinks" onclick="openCity(event, 'later')">Скоро</button>
             <button class="tablinks" onclick="openCity(event, 'manga')">Манга</button>
           </div>
-          </div>
-          <section class="otstup">
-          </section>
-          <script>
-            $(function() {
-              var height = $('.tab').height();
-              $('.otstup').height(height);
-            });
-            $(function() {
-              var height = $('footer').height();
-              $('.otstup2').height(height);
-            });
-          </script>
-          <script>
-            $(function(){
-  $('img').height($('img').width()/0.7);
-
-  $(window).resize(function(){
-    $('img').height($('img').width()/0.7);
-  });
-});
-          </script>
-          <div id="ongoing" class="tabcontent">
-            <div class="title-selecter">
-              <a href="anime.html">
-                <div>
-                  <img src="https://sun9-20.userapi.com/impg/6WfDfXBqDjG0DbOZ3pV4xrxvGUJ2BCHrtkdBYQ/QuxHckdb6Vw.jpg?size=1528x2160&quality=95&sign=225b0c08ff8b00b89cc292849b533aac&type=album">
-                  <div><span class="title">Мастера Меча Онлайн: Прогрессив, Скерцо глубокой ночи</span></div>
-                  <div><span class="info">1 эп</span></div>
-                </div>
-              </a>
-              <a href="anime.html">
-                <div>
-                  <img src="https://sun9-11.userapi.com/impg/fF4GicxOuiii8gg60xrHVcvy4mN8mFuvgmD5Dw/QzEjFfHCDIM.jpg?size=750x1084&quality=95&sign=b067be5361d4030d3906d3ace440e371&type=album">
-                  <div><span class="title">Жизнь перерождённого мудреца в другом мире. Получение второй профессии и становление сильнейшим</span></div>
-                  <div><span class="info">10 из 12 эп</span></div>
-                </div>
-              </a>
-              <a href="anime.html">
-                <div>
-                  <img src="https://sun9-51.userapi.com/impg/pShgrP6bkoTR-hG7lUleAWH6aUIvgzxY3fssVQ/2J-uW_iHLsc.jpg?size=707x1000&quality=96&sign=f1daa468eb5a3096b78f5073820d3564&type=album">
-                  <div><span class="title">Девушка на час 2</span></div>
-                  <div><span class="info">9 из 12 эп</span></div>
-                </div>
-              </a>
-              <a href="anime.html">
-                <div>
-                  <img src="https://sun9-4.userapi.com/impg/5AIWaa1etfujwiIORX_I_ZsoAYcH27ObZ4GMtA/jWrIJuUxUv8.jpg?size=720x1018&quality=96&sign=52d4690d3623d217b074ed21a3147d1b&type=album">
-                  <div><span class="title">Во время спячки лесного медведя</span></div>
-                  <div><span class="info">6 из 9 эп</span></div>
-                </div>
-              </a>
-              <a href="anime.html">
-                <div>
-                  <img src="https://sun9-81.userapi.com/impg/zd0Lzey35mlkDOwpbKhk7TF5UEhVyXlZpx6uVA/-RcyvvN2aOA.jpg?size=1260x1786&quality=96&sign=0a87bec9adef8beddb0ed6097fb44e1e&type=album">
-                  <div><span class="title">Песнь ночных сов</span></div>
-                  <div><span class="info">8 из 9 эп</span></div>
-                </div>
-              </a>
-              <a href="anime.html">
-                <div>
-                  <img src="https://sun9-50.userapi.com/impg/RQxcNrfGRo0iIQ6_FlQNzqVKDjqiFervmkas5Q/qZd7dip1_vo.jpg?size=688x1120&quality=96&sign=d18e9a636c88c88aa13f6b128cb25bc1&type=album">
-                  <div><span class="title">Дочка босса и её нянька</span></div>
-                  <div><span class="info">8 из 12 эп</span></div>
-                </div>
-              </a>
-              <a href="anime.html">
-                <div>
-                  <img src="https://sun9-66.userapi.com/impg/6cS2ersTHZVarXQTDQQzP4ITETR8wAPxavkRzg/MIBxhPv2usA.jpg?size=786x1048&quality=95&sign=15c787c734dcc805071197da328d88b4&type=album">
-                  <div><span class="title">Вечера с кошкой</span></div>
-                  <div><span class="info">8 из ? эп</span></div>
-                </div>
-              </a>
-              <a href="anime.html">
-                <div>
-                  <img src="https://sun9-30.userapi.com/impg/sMlvStRSZLG78ck561IK8ynkfOjB-tuR5OLkXQ/bf29LVwNzgA.jpg?size=707x1000&quality=95&sign=24368933f0afe32af71acc60c0c02515&type=album">
-                  <div><span class="title">Созданный в Бездне: Солнце, вспыхнувшее в Золотом городе</span></div>
-                  <div><span class="info">8 из 12 эп</span></div>
-                </div>
-              </a>
-              <a href="anime.html">
-                <div>
-                  <img src="https://sun9-56.userapi.com/impg/d-VkiiYJmfz0CyYfpb8LrODQrGuSxI5hhP_Qig/q56e8fzruUc.jpg?size=1280x1808&quality=96&sign=cbc39da2c3fa42f8ddca12a89ea1d74d&type=album">
-                  <div><span class="title">Дропкик злого духа 3</span></div>
-                  <div><span class="info">8 из 12 эп</span></div>
-                </div>
-              </a>
-            </div>
-          </div>
-  
-          <div id="later" class="tabcontent">
-            <div class="title-selecter">
-                <a href="#">
-                  <div>
-                    <img src="https://sun9-43.userapi.com/impg/twzpEmnzZX80egik_lXWhlO4OdN95BvM-XmHqw/Ty7Iybqt9mE.jpg?size=675x1200&quality=96&sign=e14b0acefe3bae943176ccb06fdda8e9&type=album">
-                    <div><span class="title">Жилой комплекс С</span></div>
-                    <div><span class="info">0 из ? эп</span></div>
-                  </div>
-                </a>
-              </div>
-          </div>
-  
-          <div id="manga" class="tabcontent">
-            <div class="title-selecter">
-                <a href="#">
-                  <div>
-                    <img src="https://sun9-2.userapi.com/impg/x8x6OrV8vtJzrjrPtPEGIVDBK_NUCSidCPOGZA/cZN3lxyNECg.jpg?size=703x1000&quality=96&sign=b5b8fe46f080b03f2cbf2241aca4fa7e&type=album">
-                    <div><span class="title">Я буду контролировать тебя</span></div>
-                    <div><span class="info">26 глав</span></div>
-                  </div>
-                </a>
-              </div>
-          </div>
-  
-          <script>
-            function openCity(evt, cityName) {
-              var i, tabcontent, tablinks;
-              tabcontent = document.getElementsByClassName("tabcontent");
-              for (i = 0; i < tabcontent.length; i++) {
-                tabcontent[i].style.display = "none";
-              }
-              tablinks = document.getElementsByClassName("tablinks");
-              for (i = 0; i < tablinks.length; i++) {
-                tablinks[i].className = tablinks[i].className.replace(" active", "");
-              }
-              document.getElementById(cityName).style.display = "block";
-              evt.currentTarget.className += " active";
-            }
-            // Get the element with id="defaultOpen" and click on it
-            document.getElementById("defaultOpen").click();
-          </script>
         </div>
-      </section>
-      <section class="otstup2"></section>
-</main>
+        <section class="otstup">
+        </section>
+        <script>
+          $(function() {
+            var height = $('.tab').height();
+            $('.otstup').height(height);
+          });
+          $(function() {
+            var height = $('footer').height();
+            $('.otstup2').height(height);
+          });
+        </script>
+        <script>
+          $(function() {
+            $('img').height($('img').width() / 0.7);
+            $(window).resize(function() {
+              $('img').height($('img').width() / 0.7);
+            });
+          });
+        </script>
+        <div id="ongoing" class="tabcontent">
+          <div class="title-selecter">
+            <a href="anime.html">
+              <div>
+                <img src="https://sun9-20.userapi.com/impg/6WfDfXBqDjG0DbOZ3pV4xrxvGUJ2BCHrtkdBYQ/QuxHckdb6Vw.jpg?size=1528x2160&quality=95&sign=225b0c08ff8b00b89cc292849b533aac&type=album">
+                <div><span class="title">Мастера Меча Онлайн: Прогрессив, Скерцо глубокой ночи</span></div>
+                <div><span class="info">1 эп</span></div>
+              </div>
+            </a>
+            <a href="anime.html">
+              <div>
+                <img src="https://sun9-11.userapi.com/impg/fF4GicxOuiii8gg60xrHVcvy4mN8mFuvgmD5Dw/QzEjFfHCDIM.jpg?size=750x1084&quality=95&sign=b067be5361d4030d3906d3ace440e371&type=album">
+                <div><span class="title">Жизнь перерождённого мудреца в другом мире. Получение второй профессии и становление сильнейшим</span></div>
+                <div><span class="info">10 из 12 эп</span></div>
+              </div>
+            </a>
+            <a href="anime.html">
+              <div>
+                <img src="https://sun9-51.userapi.com/impg/pShgrP6bkoTR-hG7lUleAWH6aUIvgzxY3fssVQ/2J-uW_iHLsc.jpg?size=707x1000&quality=96&sign=f1daa468eb5a3096b78f5073820d3564&type=album">
+                <div><span class="title">Девушка на час 2</span></div>
+                <div><span class="info">9 из 12 эп</span></div>
+              </div>
+            </a>
+            <a href="anime.html">
+              <div>
+                <img src="https://sun9-4.userapi.com/impg/5AIWaa1etfujwiIORX_I_ZsoAYcH27ObZ4GMtA/jWrIJuUxUv8.jpg?size=720x1018&quality=96&sign=52d4690d3623d217b074ed21a3147d1b&type=album">
+                <div><span class="title">Во время спячки лесного медведя</span></div>
+                <div><span class="info">6 из 9 эп</span></div>
+              </div>
+            </a>
+            <a href="anime.html">
+              <div>
+                <img src="https://sun9-81.userapi.com/impg/zd0Lzey35mlkDOwpbKhk7TF5UEhVyXlZpx6uVA/-RcyvvN2aOA.jpg?size=1260x1786&quality=96&sign=0a87bec9adef8beddb0ed6097fb44e1e&type=album">
+                <div><span class="title">Песнь ночных сов</span></div>
+                <div><span class="info">8 из 9 эп</span></div>
+              </div>
+            </a>
+            <a href="anime.html">
+              <div>
+                <img src="https://sun9-50.userapi.com/impg/RQxcNrfGRo0iIQ6_FlQNzqVKDjqiFervmkas5Q/qZd7dip1_vo.jpg?size=688x1120&quality=96&sign=d18e9a636c88c88aa13f6b128cb25bc1&type=album">
+                <div><span class="title">Дочка босса и её нянька</span></div>
+                <div><span class="info">8 из 12 эп</span></div>
+              </div>
+            </a>
+            <a href="anime.html">
+              <div>
+                <img src="https://sun9-66.userapi.com/impg/6cS2ersTHZVarXQTDQQzP4ITETR8wAPxavkRzg/MIBxhPv2usA.jpg?size=786x1048&quality=95&sign=15c787c734dcc805071197da328d88b4&type=album">
+                <div><span class="title">Вечера с кошкой</span></div>
+                <div><span class="info">8 из ? эп</span></div>
+              </div>
+            </a>
+            <a href="anime.html">
+              <div>
+                <img src="https://sun9-30.userapi.com/impg/sMlvStRSZLG78ck561IK8ynkfOjB-tuR5OLkXQ/bf29LVwNzgA.jpg?size=707x1000&quality=95&sign=24368933f0afe32af71acc60c0c02515&type=album">
+                <div><span class="title">Созданный в Бездне: Солнце, вспыхнувшее в Золотом городе</span></div>
+                <div><span class="info">8 из 12 эп</span></div>
+              </div>
+            </a>
+            <a href="anime.html">
+              <div>
+                <img src="https://sun9-56.userapi.com/impg/d-VkiiYJmfz0CyYfpb8LrODQrGuSxI5hhP_Qig/q56e8fzruUc.jpg?size=1280x1808&quality=96&sign=cbc39da2c3fa42f8ddca12a89ea1d74d&type=album">
+                <div><span class="title">Дропкик злого духа 3</span></div>
+                <div><span class="info">8 из 12 эп</span></div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div id="later" class="tabcontent">
+          <div class="title-selecter">
+            <a href="#">
+              <div>
+                <img src="https://sun9-43.userapi.com/impg/twzpEmnzZX80egik_lXWhlO4OdN95BvM-XmHqw/Ty7Iybqt9mE.jpg?size=675x1200&quality=96&sign=e14b0acefe3bae943176ccb06fdda8e9&type=album">
+                <div><span class="title">Жилой комплекс С</span></div>
+                <div><span class="info">0 из ? эп</span></div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div id="manga" class="tabcontent">
+          <div class="title-selecter">
+            <a href="#">
+              <div>
+                <img src="https://sun9-2.userapi.com/impg/x8x6OrV8vtJzrjrPtPEGIVDBK_NUCSidCPOGZA/cZN3lxyNECg.jpg?size=703x1000&quality=96&sign=b5b8fe46f080b03f2cbf2241aca4fa7e&type=album">
+                <div><span class="title">Я буду контролировать тебя</span></div>
+                <div><span class="info">26 глав</span></div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <script>
+          function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+              tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+              tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+          }
+          // Get the element with id="defaultOpen" and click on it
+          document.getElementById("defaultOpen").click();
+        </script>
+      </div>
+    </section>
+    <section class="otstup2"></section>
+  </main>
 </body>
 <footer>
-    <div class="buttons">
-        <a class="points-button" href="index.html">
-            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M32.7645 16.1686L21.0978 5.96022C20.4695 5.41039 19.5312 5.41039 18.9028 5.96022L7.23615 16.1686C6.87446 16.485 6.66699 16.9422 6.66699 17.4229V31.6666C6.66699 32.587 7.41318 33.3332 8.33366 33.3332H15.0003C15.9208 33.3332 16.667 32.587 16.667 31.6666V24.9999C16.667 24.0794 17.4132 23.3332 18.3337 23.3332H21.667C22.5875 23.3332 23.3337 24.0794 23.3337 24.9999V31.6666C23.3337 32.587 24.0799 33.3332 25.0003 33.3332H31.667C32.5875 33.3332 33.3337 32.587 33.3337 31.6666V17.4229C33.3337 16.9422 33.1262 16.485 32.7645 16.1686Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-            </svg>      
-            <small>Главная</small>
-        </a>
-        <a class="points-button" href="#"> 
-            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M20 34.625C28.0772 34.625 34.625 28.0772 34.625 20C34.625 11.9228 28.0772 5.375 20 5.375C11.9228 5.375 5.375 11.9228 5.375 20C5.375 28.0772 11.9228 34.625 20 34.625Z" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
-                <path d="M26.5 13.5L22.4375 22.4375L13.5 26.5L17.5625 17.5625L26.5 13.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-            </svg> 
-            <small>Поиск</small>
-        </a>
-        <a class="points-button" href="profile.html">
-            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M6.6665 35.0001C6.6665 30.3977 12.636 26.6667 19.9998 26.6667C27.3636 26.6667 33.3332 30.3977 33.3332 35.0001" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                <path d="M19.9998 21.6667C24.6022 21.6667 28.3332 17.9357 28.3332 13.3333C28.3332 8.73096 24.6022 5 19.9998 5C15.3975 5 11.6665 8.73096 11.6665 13.3333C11.6665 17.9357 15.3975 21.6667 19.9998 21.6667Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-            </svg>
-            <small>Профиль</small>
-        </a>
-    </div>
+  <div class="buttons">
+    <a class="points-button" href="index.html">
+      <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M32.7645 16.1686L21.0978 5.96022C20.4695 5.41039 19.5312 5.41039 18.9028 5.96022L7.23615 16.1686C6.87446 16.485 6.66699 16.9422 6.66699 17.4229V31.6666C6.66699 32.587 7.41318 33.3332 8.33366 33.3332H15.0003C15.9208 33.3332 16.667 32.587 16.667 31.6666V24.9999C16.667 24.0794 17.4132 23.3332 18.3337 23.3332H21.667C22.5875 23.3332 23.3337 24.0794 23.3337 24.9999V31.6666C23.3337 32.587 24.0799 33.3332 25.0003 33.3332H31.667C32.5875 33.3332 33.3337 32.587 33.3337 31.6666V17.4229C33.3337 16.9422 33.1262 16.485 32.7645 16.1686Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+      </svg>
+      <small>Главная</small>
+    </a>
+    <a class="points-button" href="#">
+      <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M20 34.625C28.0772 34.625 34.625 28.0772 34.625 20C34.625 11.9228 28.0772 5.375 20 5.375C11.9228 5.375 5.375 11.9228 5.375 20C5.375 28.0772 11.9228 34.625 20 34.625Z" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M26.5 13.5L22.4375 22.4375L13.5 26.5L17.5625 17.5625L26.5 13.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+      </svg>
+      <small>Поиск</small>
+    </a>
+    <a class="points-button" href="profile.html">
+      <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M6.6665 35.0001C6.6665 30.3977 12.636 26.6667 19.9998 26.6667C27.3636 26.6667 33.3332 30.3977 33.3332 35.0001" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M19.9998 21.6667C24.6022 21.6667 28.3332 17.9357 28.3332 13.3333C28.3332 8.73096 24.6022 5 19.9998 5C15.3975 5 11.6665 8.73096 11.6665 13.3333C11.6665 17.9357 15.3975 21.6667 19.9998 21.6667Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+      </svg>
+      <small>Профиль</small>
+    </a>
+  </div>
 </footer>
+
 </html>
