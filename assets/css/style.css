@@ -61,7 +61,6 @@ html body {
     width: 100%;
     border-radius: 10px;
     object-fit: cover;
-    height: 100px;
 }
 .title-selecter .title {
     overflow: hidden;
@@ -221,8 +220,9 @@ hr {
     justify-content: center;
 }
 .anime-poster img {
+    width: 70%;
     border-radius: 10px;
-    width: 60%;
+    object-fit: cover;
 }
 .anime-background {
     filter: blur(5px);
