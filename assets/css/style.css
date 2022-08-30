@@ -397,10 +397,11 @@ hr {
     margin: 0px;
     padding: 0px;
     border: 0px;
+    margin-bottom: 100px;
 }
 .player iframe {
     width: 100%;
-    height: 92%;
+    height: 91%;
     border-top-width: 0px;
     border-right-width: 0px;
     border-bottom-width: 0px;
@@ -417,13 +418,11 @@ hr {
     width: 100%;
 }
 .player-next {
-    border-bottom-left-radius: 5px;
     padding: 5px;
     text-decoration: none;
     color: #FFFFFF;
 }
 .player-prev {
-    border-bottom-right-radius: 5px;
     padding: 5px;
     text-decoration: none;
     color: #FFFFFF;
@@ -433,4 +432,7 @@ hr {
     padding: 5px;
     text-decoration: none;
     color: #FFFFFF;
+}
+.otsup3 {
+    bottom: 0;
 }
