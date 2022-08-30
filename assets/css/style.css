@@ -17,6 +17,10 @@ html body {
     overflow: hidden;
     position: fixed;
     background-color: #192852;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
 }
 .tab button {
     background-color: inherit;
