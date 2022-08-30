@@ -391,3 +391,46 @@ hr {
     padding: 3px;
     border-radius: 5px;
 }
+.player {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+.player iframe {
+    width: 100%;
+    height: 92%;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    position: fixed;
+}
+.player-btn {
+    display: flex;
+    position: fixed;
+    justify-content: space-around;
+    background: #0D193A;
+    color: #FFFFFF;
+    text-decoration: none;
+    width: 100%;
+}
+.player-next {
+    border-bottom-left-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.player-prev {
+    border-bottom-right-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.player-home {
+    margin: 0 auto;
+    padding: 5px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
