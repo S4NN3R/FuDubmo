@@ -123,3 +123,108 @@ footer .points-button {
     flex-direction: column;
     align-items: center;
 }
+
+/*профиль*/
+
+
+.profile-info {
+    display: flex;
+    width: 100%;
+}
+
+.profile-info img{
+    width: 100%;
+    border-radius: 50%;
+}
+.profile-foto {
+    width: 30%;
+}
+.user-info {
+    width: 70%;
+    padding-left: 10px;
+}
+.profile-name {
+    color: #FFFFFF;
+    font-size: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.profile-description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+            line-clamp: 3; 
+    -webkit-box-orient: vertical;
+}
+
+.profile-online {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.profile-edit-btn {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background: rgba(217, 217, 217, 0.2);
+    border-radius: 5px;
+    text-decoration: none;
+}
+.profile-edit-btn div {
+    padding: 5px;
+    color: #FFFFFF;
+}
+hr {
+  height: 1px;
+  border: 0;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.profile {
+    margin-top: 20px;
+}
+
+.edit {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #192852;
+}
+.edit-syze {
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+}
+.edit-syze a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.edit-info {
+    display: flex;
+    flex-direction: column;
+}
+.edit-info span {
+    color: #FFFFFF;
+}
+.edit-info input {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  width: 90%;
+  border: 0;
+  color: #FFFFFF;
+  padding: 5px;
+  outline: none;
+  margin-bottom: 10px;
+}
+.edit-info button {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    border: 0;
+    color: #FFFFFF;
+    padding: 5px;
+    outline: none;
+    margin-bottom: 10px;   
+}
