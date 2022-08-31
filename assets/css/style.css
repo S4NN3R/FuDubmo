@@ -436,3 +436,38 @@ hr {
 .otsup3 {
     bottom: 0;
 }
+.search {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    padding: 5px 10px;
+    -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+            display: flex;
+  }
+  
+.search button {
+    background: none;
+    border: none;
+    position: relative;
+    padding-left: 15px;
+  }
+  
+.search button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(217, 217, 217, 0.2);
+    width: 1px;
+    height: 100%;
+  }
+  
+.search input {
+    padding: 0;
+    background: none;
+    border: none;
+    color: white;
+    outline: none !important;
+    width: 90%;
+  }
