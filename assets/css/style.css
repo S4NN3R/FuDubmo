@@ -51,6 +51,7 @@ html body {
     display: flex;
     flex-wrap: wrap;
     gap: 2%;
+    margin-top: 20px;
 }
 .title-selecter a{
     text-decoration: none;
@@ -79,7 +80,6 @@ footer {
     padding-top: 5px;
     padding-bottom: 5px;
     background-color: #0D193A;
-   ;
     position: fixed;
     bottom: 0;
     left: 0;
