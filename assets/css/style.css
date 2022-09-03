@@ -474,3 +474,38 @@ hr {
     outline: none !important;
     width: 90%;
   }
+  .reg a {
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  .register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 50;
+  }
+  .reg-panel .edit-info {
+    align-items: normal;
+  }
+  .header-dark {
+    background-color: #15244B;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+  }
+  .reg-panel .edit-info-save {
+    justify-content: center;
+  }
+.socials {
+    display: flex;
+    justify-content: center;
+}
+.socials .socials-reg {
+    display: flex;
+    justify-content: space-between;
+}
+.socials .socials-reg  img{
+    width: 100%;
+    border-radius: 50%;
+    margin-top: 10px;
+}
