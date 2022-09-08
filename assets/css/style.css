@@ -102,7 +102,7 @@ footer .buttons {
     -ms-flex-align: center;
     align-items: center;
     -ms-flex-pack: distribute;
-    justify-content: space-around;
+    justify-content: space-evenly;
     max-width: 900px;
     position: relative;
     margin: 0 auto;
