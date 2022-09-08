@@ -62,6 +62,7 @@ html body {
     width: 100%;
     border-radius: 10px;
     object-fit: cover;
+    aspect-ratio: 9/13;
 }
 .title-selecter .title {
     overflow: hidden;
@@ -122,6 +123,8 @@ footer .points-button {
 .profile-info img{
     width: 100%;
     border-radius: 50%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
 }
 .profile-foto {
     width: 30%;
@@ -235,6 +238,7 @@ hr {
     width: 70%;
     border-radius: 10px;
     object-fit: cover;
+    aspect-ratio: 9/13;
 }
 .anime-background {
     filter: blur(5px);
