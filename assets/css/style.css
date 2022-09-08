@@ -105,6 +105,7 @@ footer .buttons {
     max-width: 900px;
     position: relative;
     margin: 0 auto;
+    min-height: 50px;
 }
 footer .points-button {
     display: flex;
