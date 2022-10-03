@@ -593,3 +593,52 @@ hr {
         -ms-user-select: none;
             user-select: none;
   }
+
+
+
+
+
+  .about-voices {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    top: 0;
+    z-index: 99999;
+    display: flex;
+    align-items: center;
+  }
+  .about-voices-info {
+    background-color: #192852;
+    width: 80%;
+    padding: 20px;
+    border-radius: 20px;
+    z-index: 20;
+  }
+  .about-voices-img {
+    width: 8%;
+  }
+  .about-voices-img img {
+    border-radius: 50%;
+    width: 100%;
+  }
+  .about-voices-size {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .about-voices-size:before {
+      content: '';
+      background: #000;
+      position: fixed; 
+      left: 0;
+      top: 0;
+      width: 100%; 
+      height: 100%;
+      opacity: 0.7;
+      z-index: 10;
+  }
+.about-open {
+    width: 100%;
+}

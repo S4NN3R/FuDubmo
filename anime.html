@@ -78,9 +78,24 @@
         <a><img class="poster" src="https://sun9-81.userapi.com/impg/zd0Lzey35mlkDOwpbKhk7TF5UEhVyXlZpx6uVA/-RcyvvN2aOA.jpg?size=1260x1786&quality=96&sign=0a87bec9adef8beddb0ed6097fb44e1e&type=album"></a>
       </div>
     </section>
+    <section class="about-voices title" style="display: none;">
+      <div class="about-open">
+      <div class="container about-voices-size">
+        <div class="about-voices-info">
+          <div class="about-voices-info-name">
+            <div class="title-open">
+              <div class="title-ru">Песнь ночных сов</div>
+              <div class="title-tr">Yofukashi no Uta</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    </div>
     <section>
       <div class="anime-name">
-        <div class="title-ru">Песнь ночных сов</div>
+        <div class="title-ru title1">Песнь ночных сов</div>
         <div class="title-tr">Yofukashi no Uta</div>
       </div>
     </section>
@@ -120,6 +135,16 @@
           }
         });
       </script>
+        <script>
+          $('.title1').click(function() {
+            $('.title').toggle();
+          });
+          $('.title').click(function(e) {
+            if ($(e.target).closest('.about-voices-info').length == 0) {
+              $(this).toggle();
+            }
+          });
+        </script>
     </section>
     <section>
       <div class="comments-all">
